@@ -3,7 +3,7 @@ package com.springinaction.springidol;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+@Configuration  //告诉spring这个类包含一个或多个spring bean的定义，使用@Bean进行注解
 public class SpringIdolConfig {
   //<start id="duke_bean" /> 
   @Bean

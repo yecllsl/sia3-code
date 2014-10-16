@@ -15,7 +15,7 @@ public class Instrumentalist implements Performer {
     return instrument;
   }
 
-  //<start id="autowire_property" />
+  //<start id="autowire_property" />利用@Qualifier缩小范围
   @Autowired
   @Qualifier("stringed")
   private Instrument instrument;

@@ -13,7 +13,7 @@ public class Instrumentalist implements Performer {
     instrument.play();
   }
 
-  //<start id="autowire_property" /> 
+  //<start id="autowire_property" />与@Autowired一样，但所标注的依赖关系必须存在，否则抛异常 
   @Inject
   private Instrument instrument;
   //<end id="autowire_property" />
